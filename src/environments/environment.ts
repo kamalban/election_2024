@@ -10,7 +10,14 @@ export const environment = {
   url: "http://127.0.0.1:8081/api/",
   image: "../../../assets/"
 };
-
+/*
+export const environment = {
+  baseUrl: 'http://127.0.0.1:4200',
+  production: false ,
+  // url: 'https://ekb.gamesmasti.com/api/',
+  url: "http://192.168.1.5:8081/api/",
+  image: "../../../assets/"
+};*/
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

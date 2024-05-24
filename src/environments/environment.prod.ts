@@ -8,7 +8,7 @@ function imageUrl(){
   }
   return 'assets/'
 }
-
+/*
 export const environment = {
   // baseUrl: 'https://ekb.gamesmasti.com/api/',
   // production: true,
@@ -22,6 +22,23 @@ export const environment = {
 
 
 };
+*/
+export const environment = {
+  baseUrl: 'https://ekbapi.abplive.com',
+  production: true,
+  url: "https://ekbapi.abplive.com/api/",
+  image: window.location.pathname +"assets/"
+};
+
+
+/*
+export const environment = {
+  baseUrl: 'http://localhost:4200',
+  production: true,
+  // url: 'https://ekb.gamesmasti.com/api/',
+  url: "http://192.168.1.5:8081/api/",
+  image: "../../../assets/"
+};*/
 
 // export const environment = {
 //   baseUrl: 'http://192.168.1.9:8081/api/',
